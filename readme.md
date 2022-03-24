@@ -11,8 +11,7 @@ required_version = ">= 1.0"
 ```
 fill yyyy and xxxx with amazon credentials
 
->> set your variables values on terraform.tfvars
->> and use it like this tf plan -var-file=terraforms.tfvars
+> set your variables values on terraform.tfvars and use it like this tf plan -var-file=terraform.tfvars
 # download providers and modules
 ```
 terraform init
